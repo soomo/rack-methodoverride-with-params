@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.files = Dir['LICENSE', 'README.md', 'rack-methodoverride-with-params.gemspec'] + Dir['lib/**/*'] + Dir['spec/*']
   s.require_paths      = ["lib"]
-  s.add_dependency "rack", "~> 1"
+  s.add_dependency "rack", ">= 1"
   s.add_development_dependency 'rspec', '~> 2'
 end
